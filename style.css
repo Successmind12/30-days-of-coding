@@ -35,6 +35,8 @@ body {
 }
 h1{
   font-size:40px;
+  margin: 0px;
+  margin-bottom: 15px;
 }
 h2{
   font-size:30px;
@@ -66,3 +68,12 @@ a:hover {
 a:active {
   color: brown; /*pseudo-selector, changes the link's color to grey after it has been clicked*/
 }
+.address{
+  margin-bottom: 5px;
+}
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -25px; /*- is called negative margin, used to pull things closer*/
+  }
