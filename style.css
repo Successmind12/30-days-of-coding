@@ -58,5 +58,11 @@ a{
   color: black;
 }
 a:visited {
-  color: grey; /*pseudo-selector, changes the link's color to grey after it has been clicked*/
+  color: black; /*pseudo-selector, changes the link's color to grey after it has been clicked*/
+}
+a:hover {
+  color:brown; /*pseudo-selector, changes the link's color to brown when it's been hovered on*/
+}
+a:active {
+  color: brown; /*pseudo-selector, changes the link's color to grey after it has been clicked*/
 }
