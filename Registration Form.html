@@ -11,21 +11,22 @@
     <form action='https://register-demo.freecodecamp.org'></form>
     <fieldset>
       <label for="First-Name">Enter Your First Name: 
-        <input  id="First-Name">
+        <input  id="First-Name" type="text" required>
       </label>
 
       <label for="Last-Name">Enter Your Last Name: 
-        <input  id="Last-Name"> 
+        <input  id="Last-Name" type="text" required> 
       </label>
 
       <label for="Email">Enter Your Email: 
-      <input  id="Email">
+      <input  id="Email" type="email" required>
     </label>
       <label for="Password">Create a New Password: 
-        <input  id="Password">
+        <input  id="Password" type="password" pattern="[a-z0-5]{8,}" required minlength="8">
       </label>
     </fieldset>
     <fieldset></fieldset>
     <fieldset></fieldset>
+    <input type="submit" value="submit">
 </body>
 </html>
